@@ -8,6 +8,12 @@ The constraints for this linear programming problem, should consider seven compo
 
 Set this up as a standard linear programming problem with decision variables taking any non-negative values. In other words, partial servings are permitted.
 
+Food choices selected for this assignment are ingredients needed for a vegetarian Poke Bowl. The table below shows the food item, nutritional facts, and $ per servings. The nutritional facts can be found in the Appendix in the write-up.
+
+![image](https://github.com/user-attachments/assets/f79ef3ec-b064-4b0d-9df1-d5fbc4ca7053)
+
+The yellow highlighted hard-boiled egg was initially not in the model and then later added to the model as my initial linear optimizational model result was infeasible because it was missing Vitamin D. By adding the hard boiled eggs, the model resulted in optimal.
+
 Assignment 1 Linear PuLP Problem variable Python Code: 
 
 prob = LpProblem("Simple Diet Problem",LpMinimize)
